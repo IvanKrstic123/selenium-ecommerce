@@ -18,10 +18,13 @@ public class AddToCartPage extends BaseClass{
 	@FindBy(xpath = "//*[@id=\"product-product\"]/div[1]")
 	WebElement addToCartMessage;
 	
-	@FindBy(xpath = "/html/body/header/div/div/div[3]/div/button")
+	@FindBy(xpath = "//*[@id=\"cart\"]/button") 
 	WebElement shoppingCart;
 	
-	@FindBy(xpath = "/html/body/header/div/div/div[3]/div/ul/li[2]/div/p/a[2]")
+	@FindBy(xpath = "//*[@id=\"cart\"]/ul/li[2]/div/p/a[1]")
+	WebElement proceedToCartSummary;
+	
+	@FindBy(xpath = "//*[@id=\"cart\"]/ul/li[2]/div/p/a[2]")
 	WebElement proceedToCheckOutBtn;
 	
 	public AddToCartPage() {
@@ -40,13 +43,18 @@ public class AddToCartPage extends BaseClass{
 		return Action.isDisplayed(driver, addToCartMessage);
 	}
 	
-	public void clickOnShoppingCart() {
-		Action.click(driver, shoppingCart);
-	}
-	
-	public OrderPage clickOnCheckOut() {
+	public CartSummaryPage proceedToCartSummary() {
 		Action.JSClick(driver, shoppingCart);
+		Action.JSClick(driver, proceedToCartSummary);
+		return new CartSummaryPage();
+	}  
+	
+	public OrderPage proceedToCheckout() {
+		Action.click(driver, shoppingCart);
+		Action.click(driver, proceedToCheckOutBtn);
 		return new OrderPage();
 	}
+	
+
 	
 }
