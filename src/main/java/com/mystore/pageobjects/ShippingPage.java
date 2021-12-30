@@ -4,7 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.mystore.actiondriver.Action;
 import com.mystore.base.BaseClass;
 
 public class ShippingPage extends BaseClass {
@@ -16,9 +15,5 @@ public class ShippingPage extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public PaymentPage clickOnProceedToCheckOut() {
-		Action.click(driver, proceedToCheckOut);
-		return new PaymentPage();
-	}
-
+	// Further implementing could cause actual product buying. Testing these feature should be done in development stage
 }

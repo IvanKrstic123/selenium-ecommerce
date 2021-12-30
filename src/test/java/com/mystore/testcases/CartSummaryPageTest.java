@@ -62,8 +62,5 @@ public class CartSummaryPageTest extends BaseClass {
 		
 		Assert.assertEquals(actualTotalPrice,  expectedTotalPrice);
 		assertEquals(orderPage.getCurrentURL(), "https://www.neptun.rs/index.php?route=checkout/checkout");
-		
 	}
-
-
 }

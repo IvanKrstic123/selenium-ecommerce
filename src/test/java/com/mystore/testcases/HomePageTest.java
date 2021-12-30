@@ -1,7 +1,5 @@
 package com.mystore.testcases;
 
-import javax.naming.spi.DirStateFactory.Result;
-
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -28,7 +26,6 @@ public class HomePageTest extends BaseClass{
 		driver.quit();
 	}
 	
-	
 	@Test
 	public void wishListTest() {
 		indexPage = new IndexPage();
@@ -50,5 +47,4 @@ public class HomePageTest extends BaseClass{
 		
 		Assert.assertTrue(resut);
 	}
-
 }

@@ -1,5 +1,13 @@
 package com.mystore.testcases;
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
+import java.util.List;
+import java.util.Random;
+
+import org.apache.poi.ss.formula.functions.Index;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -15,6 +23,7 @@ public class AccountCreationPageTest extends BaseClass {
 	IndexPage indexPage;
 	LoginPage loginPage;
 	AccountCreationPage accountCreationPage;
+	HomePage homePage;
 	
 	@BeforeMethod
 	public void setup() {
@@ -27,12 +36,36 @@ public class AccountCreationPageTest extends BaseClass {
 	}
 	
 	@Test
-	public void createAccountPageTest() { 
+	public void displayAccountCreationFormTest() { 
 		indexPage = new IndexPage();
 		loginPage = indexPage.clickOnSignIn();
 		accountCreationPage = loginPage.clickOnCreateNewAccount();
 		
 		boolean result = accountCreationPage.validateAccountCreationForm();
+		Assert.assertTrue(result);
 	}
-
+	
+	@Test
+	public void createUserAccountTest() throws InterruptedException {
+		indexPage = new IndexPage();
+		loginPage = indexPage.clickOnSignIn();
+		accountCreationPage = loginPage.clickOnCreateNewAccount();
+		HomePage homePage = accountCreationPage.createAccount();
+		
+		String actualUrl = homePage.getCurrentURL();
+		String expectedString = "https://www.neptun.rs/index.php?route=account/success";
+		
+		assertEquals(actualUrl, expectedString);
+	}
+	
+	@Test
+	public void compareRegistrationAndProfileDetails() throws InterruptedException {
+		indexPage = new IndexPage();
+		loginPage = indexPage.clickOnSignIn();
+		accountCreationPage = loginPage.clickOnCreateNewAccount();
+		boolean result = accountCreationPage.createAccountAndCheckProfileDetails();
+		
+		assertTrue(result);
+	}
+	
 }

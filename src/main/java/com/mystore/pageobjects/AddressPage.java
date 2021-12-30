@@ -12,7 +12,6 @@ public class AddressPage extends BaseClass{
 	@FindBy(xpath = "//input[@id='button-payment-address']")
 	WebElement proceedToCheckOut;
 	
-	
 	public AddressPage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -22,8 +21,4 @@ public class AddressPage extends BaseClass{
 		return new ShippingPage();
 	}
 	
-	
-	
-	
-
 }

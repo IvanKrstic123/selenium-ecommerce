@@ -26,6 +26,7 @@ public class AddToCartPage extends BaseClass{
 	
 	@FindBy(xpath = "//*[@id=\"cart\"]/ul/li[2]/div/p/a[2]")
 	WebElement proceedToCheckOutBtn;
+
 	
 	public AddToCartPage() {
 		PageFactory.initElements(driver, this);
@@ -50,11 +51,12 @@ public class AddToCartPage extends BaseClass{
 	}  
 	
 	public OrderPage proceedToCheckout() {
-		Action.click(driver, shoppingCart);
-		Action.click(driver, proceedToCheckOutBtn);
+		Action.JSClick(driver, shoppingCart);
+		Action.JSClick(driver, proceedToCheckOutBtn);
 		return new OrderPage();
 	}
 	
-
-	
+	public String getString() {
+		return shoppingCart.getText();
+	}
 }

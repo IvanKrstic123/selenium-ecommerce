@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 
 import com.mystore.base.BaseClass;
 import com.mystore.pageobjects.IndexPage;
-import com.mystore.pageobjects.LoginPage;
 
 public class IndexPageTest extends BaseClass{
 	
@@ -37,5 +36,13 @@ public class IndexPageTest extends BaseClass{
 	public void verifyTitle() {
 		String actualTitleString = indexPage.getStoreTitle();
 		assertEquals(actualTitleString, "NEPTUN SHOP - Internet prodavnica tehnike");
+	}
+	
+	@Test
+	public void addMultipleProductsToCartTest() throws InterruptedException {
+		indexPage = new IndexPage();
+		int actualProductsInCart = indexPage.addToCartMultipleProductFromDiffGroups();
+		
+		assertEquals(actualProductsInCart, 3);
 	}
 }

@@ -8,7 +8,7 @@ import com.mystore.actiondriver.Action;
 import com.mystore.base.BaseClass;
 
 public class OrderPage extends BaseClass{
-
+	
 	@FindBy(xpath = "//*[@id=\"content\"]/form/div/table/tbody/tr/td[5]")
 	WebElement unitPrice;
 	
@@ -17,6 +17,7 @@ public class OrderPage extends BaseClass{
 	
 	@FindBy(xpath = "//*[@id=\"content\"]/div[3]/div[2]/a")
 	WebElement proceedToCheckOut;
+	
 	
 	public OrderPage() {
 		PageFactory.initElements(driver, this);
