@@ -1,41 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-30T13:54:03 CET" name="Default suite" finished-at="2021-12-30T13:54:17 CET" duration-ms="13750">
+  <suite started-at="2021-12-30T14:45:48 CET" name="Default suite" finished-at="2021-12-30T14:45:58 CET" duration-ms="9583">
     <groups>
     </groups>
-    <test started-at="2021-12-30T13:54:03 CET" name="Default test" finished-at="2021-12-30T13:54:17 CET" duration-ms="13750">
-      <class name="com.mystore.testcases.SearchResultPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:03 CET" name="loadConfig" finished-at="2021-12-30T13:54:03 CET" duration-ms="6" status="PASS">
+    <test started-at="2021-12-30T14:45:48 CET" name="Default test" finished-at="2021-12-30T14:45:58 CET" duration-ms="9583">
+      <class name="com.mystore.testcases.AddToCardPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@7205765b]" started-at="2021-12-30T14:45:48 CET" name="loadConfig" finished-at="2021-12-30T14:45:48 CET" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:03 CET" name="setup" finished-at="2021-12-30T13:54:07 CET" duration-ms="3841" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@7205765b]" started-at="2021-12-30T14:45:48 CET" name="setup" finished-at="2021-12-30T14:45:52 CET" duration-ms="3685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productAvailabilityTest()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:07 CET" name="productAvailabilityTest" finished-at="2021-12-30T13:54:09 CET" duration-ms="2557" status="PASS">
+        <test-method signature="addToCartTest()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@7205765b]" started-at="2021-12-30T14:45:52 CET" name="addToCartTest" finished-at="2021-12-30T14:45:58 CET" duration-ms="5695" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productAvailabilityTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:09 CET" name="tearDown" finished-at="2021-12-30T13:54:10 CET" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:10 CET" name="setup" finished-at="2021-12-30T13:54:13 CET" duration-ms="3181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="productAvailabilityWithCategoryTest()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:13 CET" name="productAvailabilityWithCategoryTest" finished-at="2021-12-30T13:54:17 CET" duration-ms="3905" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productAvailabilityWithCategoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:17 CET" name="tearDown" finished-at="2021-12-30T13:54:17 CET" duration-ms="107" status="PASS">
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@7205765b]" started-at="2021-12-30T14:45:58 CET" name="tearDown" finished-at="2021-12-30T14:45:58 CET" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.testcases.SearchResultPageTest -->
+      </class> <!-- com.mystore.testcases.AddToCardPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
