@@ -1,53 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-29T14:50:13 CET" name="Default suite" finished-at="2021-12-29T14:50:27 CET" duration-ms="14115">
+  <suite started-at="2021-12-30T12:16:57 CET" name="Default suite" finished-at="2021-12-30T12:17:07 CET" duration-ms="10474">
     <groups>
     </groups>
-    <test started-at="2021-12-29T14:50:13 CET" name="Default test" finished-at="2021-12-29T14:50:27 CET" duration-ms="14115">
-      <class name="com.mystore.testcases.LoginPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.LoginPageTest@22ef9844]" started-at="2021-12-29T14:50:13 CET" name="loadConfig" finished-at="2021-12-29T14:50:13 CET" duration-ms="6" status="PASS">
+    <test started-at="2021-12-30T12:16:57 CET" name="Default test" finished-at="2021-12-30T12:17:07 CET" duration-ms="10474">
+      <class name="com.mystore.testcases.HomePageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:16:57 CET" name="loadConfig" finished-at="2021-12-30T12:16:57 CET" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.LoginPageTest@22ef9844]" started-at="2021-12-29T14:50:13 CET" name="setup" finished-at="2021-12-29T14:50:16 CET" duration-ms="3017" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:16:57 CET" name="setup" finished-at="2021-12-30T12:17:01 CET" duration-ms="4204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickOnCreateAccountTest()[pri:0, instance:com.mystore.testcases.LoginPageTest@22ef9844]" started-at="2021-12-29T14:50:16 CET" name="clickOnCreateAccountTest" finished-at="2021-12-29T14:50:19 CET" duration-ms="2759" status="PASS">
+        <test-method signature="orderHistoryTest()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:17:01 CET" name="orderHistoryTest" finished-at="2021-12-30T12:17:02 CET" duration-ms="1409" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnCreateAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@22ef9844]" started-at="2021-12-29T14:50:19 CET" name="tearDown" finished-at="2021-12-29T14:50:19 CET" duration-ms="140" status="PASS">
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:17:02 CET" name="tearDown" finished-at="2021-12-30T12:17:02 CET" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.LoginPageTest@22ef9844]" started-at="2021-12-29T14:50:19 CET" name="setup" finished-at="2021-12-29T14:50:22 CET" duration-ms="2560" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:17:02 CET" name="setup" finished-at="2021-12-30T12:17:06 CET" duration-ms="3296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.mystore.testcases.LoginPageTest@22ef9844]" started-at="2021-12-29T14:50:22 CET" name="loginTest" finished-at="2021-12-29T14:50:23 CET" duration-ms="1491" status="PASS">
+        <test-method signature="wishListTest()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:17:06 CET" name="wishListTest" finished-at="2021-12-30T12:17:07 CET" duration-ms="1238" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@22ef9844]" started-at="2021-12-29T14:50:23 CET" name="tearDown" finished-at="2021-12-29T14:50:23 CET" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.LoginPageTest@22ef9844]" started-at="2021-12-29T14:50:23 CET" name="setup" finished-at="2021-12-29T14:50:26 CET" duration-ms="2663" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTestNotAuthorizedTest()[pri:0, instance:com.mystore.testcases.LoginPageTest@22ef9844]" started-at="2021-12-29T14:50:26 CET" name="loginTestNotAuthorizedTest" finished-at="2021-12-29T14:50:27 CET" duration-ms="1195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestNotAuthorizedTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@22ef9844]" started-at="2021-12-29T14:50:27 CET" name="tearDown" finished-at="2021-12-29T14:50:27 CET" duration-ms="138" status="PASS">
+        </test-method> <!-- wishListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:17:07 CET" name="tearDown" finished-at="2021-12-30T12:17:07 CET" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.testcases.LoginPageTest -->
+      </class> <!-- com.mystore.testcases.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
