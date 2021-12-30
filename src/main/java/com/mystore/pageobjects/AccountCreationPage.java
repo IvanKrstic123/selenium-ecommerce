@@ -86,7 +86,7 @@ public class AccountCreationPage extends BaseClass {
 		Action.type(password, prop.getProperty("password"));
 		Action.type(repeatPassword, prop.getProperty("password"));
 		
-		Thread.sleep(12000);
+		Thread.sleep(16000);
 		Action.click(driver, submitRegistration);
 		
 		return new HomePage();
@@ -109,7 +109,7 @@ public class AccountCreationPage extends BaseClass {
 		Action.type(password, psw);
 		Action.type(repeatPassword, psw);
 		
-		Thread.sleep(12000);
+		Thread.sleep(16000);
 		Action.click(driver, submitRegistration);
 		
 		// Navigate to Profile Page
