@@ -48,9 +48,9 @@ public class CartSummaryPage extends BaseClass{
 		return result;
 	}
 	
-	public LoginPage clickOnCheckOut() {
+	public OrderPage proceedToCheckOut() {
 		Action.click(driver, proceedToCheckOut);
-		return new LoginPage();
+		return new OrderPage();
 	}
 
 }

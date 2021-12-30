@@ -1,25 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="7" total="21" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-30T17:19:27 CET" name="Default suite" finished-at="2021-12-30T17:19:36 CET" duration-ms="9268">
+  <suite started-at="2021-12-30T17:31:11 CET" name="Default suite" finished-at="2021-12-30T17:32:37 CET" duration-ms="86413">
     <groups>
     </groups>
-    <test started-at="2021-12-30T17:19:27 CET" name="Default test" finished-at="2021-12-30T17:19:36 CET" duration-ms="9268">
-      <class name="com.mystore.testcases.CartSummaryPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.CartSummaryPageTest@7205765b]" started-at="2021-12-30T17:19:27 CET" name="loadConfig" finished-at="2021-12-30T17:19:27 CET" duration-ms="6" status="PASS">
+    <test started-at="2021-12-30T17:31:11 CET" name="Default test" finished-at="2021-12-30T17:32:37 CET" duration-ms="86413">
+      <class name="com.mystore.testcases.AddToCardPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@4fb3ee4e]" started-at="2021-12-30T17:31:11 CET" name="loadConfig" finished-at="2021-12-30T17:31:11 CET" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.CartSummaryPageTest@7205765b]" started-at="2021-12-30T17:19:27 CET" name="setup" finished-at="2021-12-30T17:19:31 CET" duration-ms="3346" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@4fb3ee4e]" started-at="2021-12-30T17:31:11 CET" name="setup" finished-at="2021-12-30T17:31:14 CET" duration-ms="3297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTotalPrice()[pri:0, instance:com.mystore.testcases.CartSummaryPageTest@7205765b]" started-at="2021-12-30T17:19:31 CET" name="checkTotalPrice" finished-at="2021-12-30T17:19:36 CET" duration-ms="5750" status="PASS">
+        <test-method signature="addToCartTest()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@4fb3ee4e]" started-at="2021-12-30T17:31:14 CET" name="addToCartTest" finished-at="2021-12-30T17:31:19 CET" duration-ms="5111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@4fb3ee4e]" started-at="2021-12-30T17:31:19 CET" name="tearDown" finished-at="2021-12-30T17:31:20 CET" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.AddToCardPageTest -->
+      <class name="com.mystore.testcases.AccountCreationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@74751b3]" started-at="2021-12-30T17:31:20 CET" name="setup" finished-at="2021-12-30T17:31:23 CET" duration-ms="3061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAccountPageTest()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@74751b3]" started-at="2021-12-30T17:31:23 CET" name="createAccountPageTest" finished-at="2021-12-30T17:31:25 CET" duration-ms="2483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@74751b3]" started-at="2021-12-30T17:31:25 CET" name="tearDown" finished-at="2021-12-30T17:31:25 CET" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.AccountCreationPageTest -->
+      <class name="com.mystore.testcases.SearchResultPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@741a8937]" started-at="2021-12-30T17:31:25 CET" name="setup" finished-at="2021-12-30T17:31:28 CET" duration-ms="2946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productAvailabilityTest()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@741a8937]" started-at="2021-12-30T17:31:28 CET" name="productAvailabilityTest" finished-at="2021-12-30T17:31:31 CET" duration-ms="2676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAvailabilityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@741a8937]" started-at="2021-12-30T17:31:31 CET" name="tearDown" finished-at="2021-12-30T17:31:31 CET" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@741a8937]" started-at="2021-12-30T17:31:31 CET" name="setup" finished-at="2021-12-30T17:31:34 CET" duration-ms="2924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productAvailabilityWithCategoryTest()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@741a8937]" started-at="2021-12-30T17:31:34 CET" name="productAvailabilityWithCategoryTest" finished-at="2021-12-30T17:31:38 CET" duration-ms="3850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAvailabilityWithCategoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@741a8937]" started-at="2021-12-30T17:31:38 CET" name="tearDown" finished-at="2021-12-30T17:31:38 CET" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.SearchResultPageTest -->
+      <class name="com.mystore.testcases.IndexPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.IndexPageTest@306e95ec]" started-at="2021-12-30T17:31:38 CET" name="setup" finished-at="2021-12-30T17:31:41 CET" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@306e95ec]" started-at="2021-12-30T17:31:41 CET" name="verifyLogo" finished-at="2021-12-30T17:31:41 CET" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@306e95ec]" started-at="2021-12-30T17:31:41 CET" name="tearDown" finished-at="2021-12-30T17:31:41 CET" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.IndexPageTest@306e95ec]" started-at="2021-12-30T17:31:41 CET" name="setup" finished-at="2021-12-30T17:31:45 CET" duration-ms="3261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@306e95ec]" started-at="2021-12-30T17:31:45 CET" name="verifyTitle" finished-at="2021-12-30T17:31:45 CET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@306e95ec]" started-at="2021-12-30T17:31:45 CET" name="tearDown" finished-at="2021-12-30T17:31:45 CET" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.IndexPageTest -->
+      <class name="com.mystore.testcases.OrderPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.OrderPageTest@52af26ee]" started-at="2021-12-30T17:31:45 CET" name="setup" finished-at="2021-12-30T17:31:48 CET" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTotalPrice()[pri:0, instance:com.mystore.testcases.OrderPageTest@52af26ee]" started-at="2021-12-30T17:31:48 CET" name="checkTotalPrice" finished-at="2021-12-30T17:31:55 CET" duration-ms="6680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTotalPrice -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.CartSummaryPageTest@7205765b]" started-at="2021-12-30T17:19:36 CET" name="tearDown" finished-at="2021-12-30T17:19:36 CET" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.OrderPageTest@52af26ee]" started-at="2021-12-30T17:31:55 CET" name="tearDown" finished-at="2021-12-30T17:31:55 CET" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.OrderPageTest -->
+      <class name="com.mystore.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.HomePageTest@209da20d]" started-at="2021-12-30T17:32:14 CET" name="setup" finished-at="2021-12-30T17:32:17 CET" duration-ms="3284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:com.mystore.testcases.HomePageTest@209da20d]" started-at="2021-12-30T17:32:17 CET" name="orderHistoryTest" finished-at="2021-12-30T17:32:18 CET" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomePageTest@209da20d]" started-at="2021-12-30T17:32:18 CET" name="tearDown" finished-at="2021-12-30T17:32:19 CET" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.HomePageTest@209da20d]" started-at="2021-12-30T17:32:19 CET" name="setup" finished-at="2021-12-30T17:32:22 CET" duration-ms="2915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wishListTest()[pri:0, instance:com.mystore.testcases.HomePageTest@209da20d]" started-at="2021-12-30T17:32:22 CET" name="wishListTest" finished-at="2021-12-30T17:32:23 CET" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomePageTest@209da20d]" started-at="2021-12-30T17:32:23 CET" name="tearDown" finished-at="2021-12-30T17:32:23 CET" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.HomePageTest -->
+      <class name="com.mystore.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.LoginPageTest@e15b7e8]" started-at="2021-12-30T17:32:23 CET" name="setup" finished-at="2021-12-30T17:32:26 CET" duration-ms="2977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnCreateAccountTest()[pri:0, instance:com.mystore.testcases.LoginPageTest@e15b7e8]" started-at="2021-12-30T17:32:26 CET" name="clickOnCreateAccountTest" finished-at="2021-12-30T17:32:28 CET" duration-ms="2560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCreateAccountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@e15b7e8]" started-at="2021-12-30T17:32:28 CET" name="tearDown" finished-at="2021-12-30T17:32:29 CET" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.LoginPageTest@e15b7e8]" started-at="2021-12-30T17:32:29 CET" name="setup" finished-at="2021-12-30T17:32:32 CET" duration-ms="2930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.mystore.testcases.LoginPageTest@e15b7e8]" started-at="2021-12-30T17:32:32 CET" name="loginTest" finished-at="2021-12-30T17:32:33 CET" duration-ms="1617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@e15b7e8]" started-at="2021-12-30T17:32:33 CET" name="tearDown" finished-at="2021-12-30T17:32:33 CET" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.LoginPageTest@e15b7e8]" started-at="2021-12-30T17:32:33 CET" name="setup" finished-at="2021-12-30T17:32:36 CET" duration-ms="2761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTestNotAuthorizedTest()[pri:0, instance:com.mystore.testcases.LoginPageTest@e15b7e8]" started-at="2021-12-30T17:32:36 CET" name="loginTestNotAuthorizedTest" finished-at="2021-12-30T17:32:37 CET" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestNotAuthorizedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@e15b7e8]" started-at="2021-12-30T17:32:37 CET" name="tearDown" finished-at="2021-12-30T17:32:37 CET" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.LoginPageTest -->
+      <class name="com.mystore.testcases.CartSummaryPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.CartSummaryPageTest@bae7dc0]" started-at="2021-12-30T17:31:55 CET" name="setup" finished-at="2021-12-30T17:31:58 CET" duration-ms="3354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTotalPrice()[pri:0, instance:com.mystore.testcases.CartSummaryPageTest@bae7dc0]" started-at="2021-12-30T17:31:58 CET" name="checkTotalPrice" finished-at="2021-12-30T17:32:04 CET" duration-ms="6237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTotalPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.CartSummaryPageTest@bae7dc0]" started-at="2021-12-30T17:32:04 CET" name="tearDown" finished-at="2021-12-30T17:32:04 CET" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.CartSummaryPageTest@bae7dc0]" started-at="2021-12-30T17:32:04 CET" name="setup" finished-at="2021-12-30T17:32:07 CET" duration-ms="2959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnCheckOut()[pri:0, instance:com.mystore.testcases.CartSummaryPageTest@bae7dc0]" started-at="2021-12-30T17:32:07 CET" name="clickOnCheckOut" finished-at="2021-12-30T17:32:14 CET" duration-ms="6402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCheckOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.CartSummaryPageTest@bae7dc0]" started-at="2021-12-30T17:32:14 CET" name="tearDown" finished-at="2021-12-30T17:32:14 CET" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

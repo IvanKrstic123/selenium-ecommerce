@@ -42,7 +42,9 @@ public class OrderPage extends BaseClass{
 		Action.click(driver, proceedToCheckOut);
 		return new LoginPage();
 	}
-	
-	
+
+	public String getCurrentURL() {
+		return driver.getCurrentUrl();
+	}
 	
 }
