@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-30T12:16:57 CET" name="Default suite" finished-at="2021-12-30T12:17:07 CET" duration-ms="10474">
+  <suite started-at="2021-12-30T13:54:03 CET" name="Default suite" finished-at="2021-12-30T13:54:17 CET" duration-ms="13750">
     <groups>
     </groups>
-    <test started-at="2021-12-30T12:16:57 CET" name="Default test" finished-at="2021-12-30T12:17:07 CET" duration-ms="10474">
-      <class name="com.mystore.testcases.HomePageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:16:57 CET" name="loadConfig" finished-at="2021-12-30T12:16:57 CET" duration-ms="7" status="PASS">
+    <test started-at="2021-12-30T13:54:03 CET" name="Default test" finished-at="2021-12-30T13:54:17 CET" duration-ms="13750">
+      <class name="com.mystore.testcases.SearchResultPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:03 CET" name="loadConfig" finished-at="2021-12-30T13:54:03 CET" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:16:57 CET" name="setup" finished-at="2021-12-30T12:17:01 CET" duration-ms="4204" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:03 CET" name="setup" finished-at="2021-12-30T13:54:07 CET" duration-ms="3841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="orderHistoryTest()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:17:01 CET" name="orderHistoryTest" finished-at="2021-12-30T12:17:02 CET" duration-ms="1409" status="PASS">
+        <test-method signature="productAvailabilityTest()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:07 CET" name="productAvailabilityTest" finished-at="2021-12-30T13:54:09 CET" duration-ms="2557" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:17:02 CET" name="tearDown" finished-at="2021-12-30T12:17:02 CET" duration-ms="136" status="PASS">
+        </test-method> <!-- productAvailabilityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:09 CET" name="tearDown" finished-at="2021-12-30T13:54:10 CET" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:17:02 CET" name="setup" finished-at="2021-12-30T12:17:06 CET" duration-ms="3296" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:10 CET" name="setup" finished-at="2021-12-30T13:54:13 CET" duration-ms="3181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="wishListTest()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:17:06 CET" name="wishListTest" finished-at="2021-12-30T12:17:07 CET" duration-ms="1238" status="PASS">
+        <test-method signature="productAvailabilityWithCategoryTest()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:13 CET" name="productAvailabilityWithCategoryTest" finished-at="2021-12-30T13:54:17 CET" duration-ms="3905" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wishListTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomePageTest@47987356]" started-at="2021-12-30T12:17:07 CET" name="tearDown" finished-at="2021-12-30T12:17:07 CET" duration-ms="129" status="PASS">
+        </test-method> <!-- productAvailabilityWithCategoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@47987356]" started-at="2021-12-30T13:54:17 CET" name="tearDown" finished-at="2021-12-30T13:54:17 CET" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.testcases.HomePageTest -->
+      </class> <!-- com.mystore.testcases.SearchResultPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

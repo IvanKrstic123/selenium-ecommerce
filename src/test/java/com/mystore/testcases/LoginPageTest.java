@@ -58,7 +58,7 @@ public class LoginPageTest extends BaseClass {
 	public void clickOnCreateAccountTest() {
 		indexPage = new IndexPage();
 		loginPage =  indexPage.clickOnSignIn();
-		accountCreationPage = loginPage.createNewAccount();
+		accountCreationPage = loginPage.clickOnCreateNewAccount();
 		
 		String actualURL = accountCreationPage.getCurrentURL();
 		String expectedURL = "https://www.neptun.rs/register";

@@ -39,7 +39,7 @@ public class LoginPage extends BaseClass{
 		return new AddressPage();
 	}
 	
-	public AccountCreationPage createNewAccount() {
+	public AccountCreationPage clickOnCreateNewAccount() {
 		Action.click(driver, continueToRegistration);
 		return new AccountCreationPage();
 	}

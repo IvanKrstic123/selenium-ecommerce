@@ -22,7 +22,7 @@ public class IndexPage extends BaseClass {
 	@FindBy(xpath = "//div[@id='search']/input")
 	WebElement searchProductBox;
 	
-	@FindBy(name = "search")
+	@FindBy(xpath = "//*[@id=\"search\"]/span/button")
 	WebElement searchButton;
 	
 	public IndexPage() {

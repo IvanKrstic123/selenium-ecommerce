@@ -16,7 +16,7 @@ public class AccountCreationPage extends BaseClass{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public boolean validateAccountCreatePage() {
+	public boolean validateAccountCreationForm() {
 		return Action.isDisplayed(driver, formTitle);
 	}
 
@@ -24,6 +24,7 @@ public class AccountCreationPage extends BaseClass{
 		return driver.getCurrentUrl();
 	}
 	
+
 	
 	
 
