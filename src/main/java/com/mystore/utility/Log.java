@@ -1,14 +1,18 @@
 package com.mystore.utility;
 
+
 import org.apache.log4j.Logger;
-import org.junit.validator.PublicClassValidator;
 
 public class Log {
 	
 	public static Logger Log = Logger.getLogger(Log.class.getName());
 	
 	public static void startTestCase(String stestCaseName) { 
-		Log.info("---------------" + stestCaseName + "TEST STARTED ");
+		Log.info("---------------" + stestCaseName + " TEST STARTED " + "---------------");
+	}
+	
+	public static void endTestCase(String stestCaseName) { 
+		Log.info("---------------" + stestCaseName + " TEST ENDED " + "---------------");
 	}
 	
 	public static void warn(String message) {

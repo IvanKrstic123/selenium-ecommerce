@@ -14,17 +14,17 @@ public class IndexPageTest extends BaseClass{
 	
 	IndexPage indexPage;
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void setup() {
 		launchApp();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void verifyLogo() {
 		indexPage = new IndexPage();
 		boolean result = indexPage.validateLogo();
@@ -38,7 +38,7 @@ public class IndexPageTest extends BaseClass{
 		assertEquals(actualTitleString, "NEPTUN SHOP - Internet prodavnica tehnike");
 	}
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void addMultipleProductsToCartTest() throws InterruptedException {
 		indexPage = new IndexPage();
 		int actualProductsInCart = indexPage.addToCartMultipleProductFromDiffGroups();

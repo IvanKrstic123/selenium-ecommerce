@@ -21,12 +21,12 @@ public class CartSummaryPageTest extends BaseClass {
 	AddToCartPage addToCartPage;
 	CartSummaryPage cartSummaryPage;;
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void setup() {
 		launchApp();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void tearDown() {
 		driver.quit();
 	}

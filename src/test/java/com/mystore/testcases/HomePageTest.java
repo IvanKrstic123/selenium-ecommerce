@@ -16,17 +16,17 @@ public class HomePageTest extends BaseClass{
 	LoginPage loginPage;
 	HomePage homePage;
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void setup() {
 		launchApp();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void wishListTest() {
 		indexPage = new IndexPage();
 		loginPage = indexPage.clickOnSignIn();
@@ -37,7 +37,7 @@ public class HomePageTest extends BaseClass{
 		Assert.assertTrue(resut);
 	}
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void orderHistoryTest() {
 		indexPage = new IndexPage();
 		loginPage = indexPage.clickOnSignIn();

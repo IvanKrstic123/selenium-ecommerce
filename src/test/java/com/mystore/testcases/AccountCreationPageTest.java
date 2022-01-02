@@ -25,17 +25,17 @@ public class AccountCreationPageTest extends BaseClass {
 	AccountCreationPage accountCreationPage;
 	HomePage homePage;
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void setup() {
 		launchApp();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 	
-	@Test
+	@Test(groups = "Sanity")
 	public void displayAccountCreationFormTest() { 
 		indexPage = new IndexPage();
 		loginPage = indexPage.clickOnSignIn();
@@ -45,7 +45,7 @@ public class AccountCreationPageTest extends BaseClass {
 		Assert.assertTrue(result);
 	}
 	
-	@Test
+	@Test(groups = "Sanity")
 	public void createUserAccountTest() throws InterruptedException {
 		indexPage = new IndexPage();
 		loginPage = indexPage.clickOnSignIn();
@@ -58,7 +58,7 @@ public class AccountCreationPageTest extends BaseClass {
 		assertEquals(actualUrl, expectedString);
 	}
 	
-	@Test
+	@Test(groups = "Sanity")
 	public void compareRegistrationAndProfileDetails() throws InterruptedException {
 		indexPage = new IndexPage();
 		loginPage = indexPage.clickOnSignIn();

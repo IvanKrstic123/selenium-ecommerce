@@ -18,17 +18,17 @@ public class OrderPageTest extends BaseClass {
 	AddToCartPage addToCartPage;
 	OrderPage orderPage;
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void setup() {
 		launchApp();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 	
-	@Test
+	@Test(groups = "Regression")
 	public void checkTotalPrice() {
 		indexPage = new IndexPage();
 		searchResultPage = indexPage.searchProduct("lg");

@@ -17,17 +17,17 @@ public class AddToCardPageTest extends BaseClass {
 	SearchResultPage searchResultPage;
 	AddToCartPage addToCartPage;
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void setup() {
 		launchApp();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 	
-	@Test
+	@Test(groups = {"Regression", "Sanity"})
 	public void addToCartTest() {
 		indexPage = new IndexPage();
 		searchResultPage =  indexPage.searchProduct("LG");

@@ -12,6 +12,7 @@ import com.mystore.pageobjects.AccountCreationPage;
 import com.mystore.pageobjects.HomePage;
 import com.mystore.pageobjects.IndexPage;
 import com.mystore.pageobjects.LoginPage;
+import com.mystore.utility.Log;
 
 public class LoginPageTest extends BaseClass {
 	
@@ -20,30 +21,38 @@ public class LoginPageTest extends BaseClass {
 	HomePage homePage;
 	AccountCreationPage accountCreationPage;
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void setup() {
 		launchApp();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 	
 	
-	@Test
+	@Test(groups = {"Smoke", "Sanity"})
 	public void loginTest() {
+		Log.startTestCase("loginTest");
 		indexPage = new IndexPage();
+		
+		Log.info("User clicking sign in button");
 		loginPage =  indexPage.clickOnSignIn();
+		
+		Log.info("User providing username and password");
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		
 		String actualURL = homePage.getCurrentURL();
 		String expectedURL = "https://www.neptun.rs/account";
-
+		
+		Log.info("Verifying if user is able to login");
 		assertEquals(actualURL, expectedURL);
+		
+		Log.endTestCase("loginTest");
 	}
 	
-	@Test
+	@Test(groups = {"Smoke", "Sanity"})
 	public void loginTestNotAuthorizedTest() {
 		indexPage = new IndexPage();
 		loginPage =  indexPage.clickOnSignIn();
@@ -55,7 +64,7 @@ public class LoginPageTest extends BaseClass {
 		assertEquals(actualURL, expectedURL);
 	}
 	
-	@Test
+	@Test(groups = {"Smoke", "Sanity"})
 	public void clickOnCreateAccountTest() {
 		indexPage = new IndexPage();
 		loginPage =  indexPage.clickOnSignIn();

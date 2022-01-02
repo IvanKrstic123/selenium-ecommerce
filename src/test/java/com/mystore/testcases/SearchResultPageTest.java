@@ -13,17 +13,17 @@ public class SearchResultPageTest extends BaseClass {
 	
 	IndexPage indexPage;
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void setup() {
 		launchApp();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void productAvailabilityTest() {
 		indexPage = new IndexPage();
 		SearchResultPage searchResult = indexPage.searchProduct("LG");
@@ -32,7 +32,7 @@ public class SearchResultPageTest extends BaseClass {
 		Assert.assertTrue(result);
 	}
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void productAvailabilityWithCategoryTest() {
 		indexPage = new IndexPage();
 		SearchResultPage searchResult = indexPage.searchProduct("televizori");
