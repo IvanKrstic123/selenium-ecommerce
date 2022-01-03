@@ -87,3 +87,8 @@
 2022-01-02 23:16:40 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
 2022-01-02 23:16:40 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
 2022-01-02 23:16:40 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/krsti/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2022-01-03 12:49:22 INFO  Log:11 - ---------------loginTest TEST STARTED ---------------
+2022-01-03 12:49:22 INFO  Log:23 - User clicking sign in button
+2022-01-03 12:49:24 INFO  Log:23 - User providing username and password
+2022-01-03 12:49:26 INFO  Log:23 - Verifying if user is able to login
+2022-01-03 12:49:26 INFO  Log:15 - ---------------loginTest TEST ENDED ---------------

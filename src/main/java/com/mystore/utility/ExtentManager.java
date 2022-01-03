@@ -27,6 +27,7 @@ public class ExtentManager {
 		extent.setSystemInfo("OS", "Win10");
 		extent.setSystemInfo("Browser", "Chrome");
 	}
+	
 	public static void endReport() {
 		extent.flush();
 	}
