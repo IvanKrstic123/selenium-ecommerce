@@ -1,52 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="22" total="24" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-04T12:15:39 CET" name="Suite" finished-at="2022-01-04T12:16:42 CET" duration-ms="62704">
+  <suite started-at="2022-01-04T14:55:54 CET" name="Default suite" finished-at="2022-01-04T14:56:14 CET" duration-ms="19568">
     <groups>
-      <group name="Sanity">
-        <method signature="AddToCardPageTest.addToCartTest()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@17497425]" name="addToCartTest" class="com.mystore.testcases.AddToCardPageTest"/>
-      </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="AddToCardPageTest.addToCartTest()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@17497425]" name="addToCartTest" class="com.mystore.testcases.AddToCardPageTest"/>
-        <method signature="OrderPageTest.checkTotalPrice()[pri:0, instance:com.mystore.testcases.OrderPageTest@3e11f9e9]" name="checkTotalPrice" class="com.mystore.testcases.OrderPageTest"/>
+        <method signature="OrderPageTest.checkTotalPrice()[pri:0, instance:com.mystore.testcases.OrderPageTest@18d87d80]" name="checkTotalPrice" class="com.mystore.testcases.OrderPageTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2022-01-04T12:15:39 CET" name="Test Regression Groups" finished-at="2022-01-04T12:16:42 CET" duration-ms="62704">
-      <class name="com.mystore.testcases.AddToCardPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@17497425]" started-at="2022-01-04T12:15:39 CET" name="setup" finished-at="2022-01-04T12:15:46 CET" duration-ms="7160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="addToCartTest()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@17497425]" started-at="2022-01-04T12:15:46 CET" name="addToCartTest" finished-at="2022-01-04T12:16:17 CET" duration-ms="30920" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AddToCardPageTest@17497425]" started-at="2022-01-04T12:16:17 CET" name="tearDown" finished-at="2022-01-04T12:16:17 CET" duration-ms="199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.testcases.AddToCardPageTest -->
+    <test started-at="2022-01-04T14:55:54 CET" name="Default test" finished-at="2022-01-04T14:56:14 CET" duration-ms="19568">
       <class name="com.mystore.testcases.OrderPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.OrderPageTest@3e11f9e9]" started-at="2022-01-04T12:16:17 CET" name="setup" finished-at="2022-01-04T12:16:26 CET" duration-ms="8536" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkTotalPrice()[pri:0, instance:com.mystore.testcases.OrderPageTest@3e11f9e9]" started-at="2022-01-04T12:16:26 CET" name="checkTotalPrice" finished-at="2022-01-04T12:16:41 CET" duration-ms="15591" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkTotalPrice -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.OrderPageTest@3e11f9e9]" started-at="2022-01-04T12:16:41 CET" name="tearDown" finished-at="2022-01-04T12:16:42 CET" duration-ms="245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.testcases.OrderPageTest -->
-      <class name="com.mystore.testcases.CartSummaryPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.CartSummaryPageTest@5b03b9fe]" started-at="2022-01-04T12:15:38 CET" name="loadConfig" finished-at="2022-01-04T12:15:39 CET" duration-ms="455" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.OrderPageTest@18d87d80]" started-at="2022-01-04T14:55:54 CET" name="loadConfig" finished-at="2022-01-04T14:55:54 CET" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-      </class> <!-- com.mystore.testcases.CartSummaryPageTest -->
-    </test> <!-- Test Regression Groups -->
-  </suite> <!-- Suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.OrderPageTest@18d87d80]" started-at="2022-01-04T14:55:54 CET" name="setup" finished-at="2022-01-04T14:56:00 CET" duration-ms="5235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTotalPrice()[pri:0, instance:com.mystore.testcases.OrderPageTest@18d87d80]" started-at="2022-01-04T14:56:00 CET" name="checkTotalPrice" finished-at="2022-01-04T14:56:14 CET" duration-ms="14080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTotalPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.OrderPageTest@18d87d80]" started-at="2022-01-04T14:56:14 CET" name="tearDown" finished-at="2022-01-04T14:56:14 CET" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcases.OrderPageTest@18d87d80]" started-at="2022-01-04T14:56:14 CET" name="afterSuite" finished-at="2022-01-04T14:56:14 CET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.mystore.testcases.OrderPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

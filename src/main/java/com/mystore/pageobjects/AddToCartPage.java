@@ -38,6 +38,7 @@ public class AddToCartPage extends BaseClass{
 	
 	public void clickOnAddToCart() throws InterruptedException {
 		Action.click(driver, addToCartButton);
+		Thread.sleep(1000);
 	}
 	
 	public boolean validateAddToCart() {
