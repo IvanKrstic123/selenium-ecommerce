@@ -28,7 +28,7 @@ public class AddToCardPageTest extends BaseClass {
 	}
 	
 	@Test(groups = {"Regression", "Sanity"})
-	public void addToCartTest() {
+	public void addToCartTest() throws InterruptedException {
 		indexPage = new IndexPage();
 		searchResultPage =  indexPage.searchProduct("LG");
 		AddToCartPage addToCartPage = searchResultPage.clickOnProduct();

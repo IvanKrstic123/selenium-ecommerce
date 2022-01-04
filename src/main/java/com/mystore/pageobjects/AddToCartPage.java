@@ -36,7 +36,7 @@ public class AddToCartPage extends BaseClass{
 		Action.type(quantity, quantity1);
 	}
 	
-	public void clickOnAddToCart() {
+	public void clickOnAddToCart() throws InterruptedException {
 		Action.click(driver, addToCartButton);
 	}
 	

@@ -92,3 +92,13 @@
 2022-01-03 12:49:24 INFO  Log:23 - User providing username and password
 2022-01-03 12:49:26 INFO  Log:23 - Verifying if user is able to login
 2022-01-03 12:49:26 INFO  Log:15 - ---------------loginTest TEST ENDED ---------------
+2022-01-04 12:11:43 INFO  Log:11 - ---------------loginTest TEST STARTED ---------------
+2022-01-04 12:11:43 INFO  Log:23 - User clicking sign in button
+2022-01-04 12:11:43 INFO  Log:23 - User providing username and password
+2022-01-04 12:11:45 INFO  Log:23 - Verifying if user is able to login
+2022-01-04 12:11:45 INFO  Log:15 - ---------------loginTest TEST ENDED ---------------
+2022-01-04 12:13:41 INFO  Log:11 - ---------------loginTest TEST STARTED ---------------
+2022-01-04 12:13:41 INFO  Log:23 - User clicking sign in button
+2022-01-04 12:13:42 INFO  Log:23 - User providing username and password
+2022-01-04 12:13:45 INFO  Log:23 - Verifying if user is able to login
+2022-01-04 12:13:45 INFO  Log:15 - ---------------loginTest TEST ENDED ---------------

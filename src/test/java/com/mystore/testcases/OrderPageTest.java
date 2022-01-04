@@ -29,7 +29,7 @@ public class OrderPageTest extends BaseClass {
 	}
 	
 	@Test(groups = "Regression")
-	public void checkTotalPrice() {
+	public void checkTotalPrice() throws InterruptedException {
 		indexPage = new IndexPage();
 		searchResultPage = indexPage.searchProduct("lg");
 		addToCartPage = searchResultPage.clickOnProduct();

@@ -32,7 +32,7 @@ public class CartSummaryPageTest extends BaseClass {
 	}
 	
 	@Test
-	public void checkTotalPrice() {
+	public void checkTotalPrice() throws InterruptedException {
 		indexPage = new IndexPage();
 		searchResultPage = indexPage.searchProduct("lg");
 		addToCartPage = searchResultPage.clickOnProduct();
@@ -47,7 +47,7 @@ public class CartSummaryPageTest extends BaseClass {
 	}
 	
 	@Test
-	public void clickOnCheckOut() {
+	public void clickOnCheckOut() throws InterruptedException {
 		indexPage = new IndexPage();
 		searchResultPage = indexPage.searchProduct("lg");
 		addToCartPage = searchResultPage.clickOnProduct();
