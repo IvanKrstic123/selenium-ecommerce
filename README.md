@@ -5,6 +5,7 @@ University Project - testing E-commerce website with Selenium Framework
 # prerequisites for eclipse
 1. install TestNG in IDE
 2. run testng_all.xml as TestNG Suite
+3. for registration manually solve captcha (20 seconds)
 
 # prerequisites for jenkins
 1. start jenkins in cmd (java -jar jenkins.war --httpPort=8080)
